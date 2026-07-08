@@ -5,6 +5,10 @@
 [![minimum rustc 1.81.0](https://img.shields.io/badge/rustc-1.81.0+-red.svg)](https://rust-lang.github.io/rfcs/2495-min-rust-version.html)
 [![codecov](https://codecov.io/github/Rigidity/chia-wallet-sdk/graph/badge.svg?token=M2MPMFGCCA)](https://codecov.io/github/Rigidity/chia-wallet-sdk)
 
+Solslot maintains a public WASM patch lane on the `solslot-wasm-crackpack`
+branch. See [`SOLSLOT_WASM_CRACKPACK.md`](SOLSLOT_WASM_CRACKPACK.md) for the
+preserved EIP-712 bindings, WASM-safe patch notes, and upstream update flow.
+
 This is a library for building applications that need to interact with coins on the [Chia blockchain](https://chia.net), including wallets and dApps (decentralized apps). However, it is _not_ a prebuilt wallet. If you are looking for that, you can use [Sage Wallet](https://github.com/xch-dev/sage), which is a light wallet built using the Wallet SDK that provides an RPC interface.
 
 ## Getting Started
